@@ -1,0 +1,1516 @@
+{
+  "meta": {
+    "api_version": "1.0",
+    "lab": "Mock Tribology Lab Pty Ltd (simulated)",
+    "page": 3,
+    "page_size": 50,
+    "total_pages": 9,
+    "total_records": 412
+  },
+  "links": {
+    "self": "https://raw.githubusercontent.com/nhunguyen61/engine-oil-monitoring/main/mock_api/v1/samples/page_3.json",
+    "next": "https://raw.githubusercontent.com/nhunguyen61/engine-oil-monitoring/main/mock_api/v1/samples/page_4.json"
+  },
+  "data": [
+    {
+      "sample_id": "LAB-10275",
+      "unit_id": "EX-301",
+      "equipment_type": "Excavator",
+      "engine_model": "Cummins QSK50",
+      "site": "Site A",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-04-21",
+      "received_date": "2026-04-25",
+      "oil_hours": 258,
+      "results": {
+        "fe_ppm": 19.6,
+        "cu_ppm": 5.8,
+        "al_ppm": 4.6,
+        "cr_ppm": 1.5,
+        "pb_ppm": 3.1,
+        "si_ppm": 9.6,
+        "na_ppm": 3.8,
+        "k_ppm": 1.6,
+        "water_ppm": 367,
+        "visc_100c_cst": 14.46,
+        "tbn_mgkoh_g": 8.69,
+        "soot_pct": 0.63
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10211",
+      "unit_id": "HT-205",
+      "equipment_type": "Haul Truck",
+      "engine_model": "MTU 16V4000",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-01-14",
+      "received_date": "2026-01-16",
+      "oil_hours": 140,
+      "results": {
+        "fe_ppm": 7.2,
+        "cu_ppm": 3.5,
+        "al_ppm": 5.1,
+        "cr_ppm": 1.5,
+        "pb_ppm": 2.3,
+        "si_ppm": 10.7,
+        "na_ppm": 4.5,
+        "k_ppm": 1.8,
+        "water_ppm": 318,
+        "visc_100c_cst": 14.42,
+        "tbn_mgkoh_g": 9.25,
+        "soot_pct": 0.47
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10153",
+      "unit_id": "HT-204",
+      "equipment_type": "Haul Truck",
+      "engine_model": "MTU 16V4000",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2025-11-18",
+      "received_date": "2025-11-24",
+      "oil_hours": 435,
+      "results": {
+        "fe_ppm": 25.3,
+        "cu_ppm": 6.3,
+        "al_ppm": 5.7,
+        "cr_ppm": 1.9,
+        "pb_ppm": 3.8,
+        "si_ppm": 11.5,
+        "na_ppm": 3.8,
+        "k_ppm": 1.1,
+        "water_ppm": 395,
+        "visc_100c_cst": 14.31,
+        "tbn_mgkoh_g": 7.72,
+        "soot_pct": 1.12
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10005",
+      "unit_id": "HT-101",
+      "equipment_type": "Haul Truck",
+      "engine_model": "Cummins QSK60",
+      "site": "Site A",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2025-12-03",
+      "received_date": "2025-12-07",
+      "oil_hours": 261,
+      "results": {
+        "fe_ppm": 23.8,
+        "cu_ppm": 4.3,
+        "al_ppm": 4.2,
+        "cr_ppm": 1.8,
+        "pb_ppm": 2.0,
+        "si_ppm": 11.2,
+        "na_ppm": 4.4,
+        "k_ppm": 1.6,
+        "water_ppm": 326,
+        "visc_100c_cst": 14.84,
+        "tbn_mgkoh_g": 9.01,
+        "soot_pct": 0.78
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10246",
+      "unit_id": "HT-205",
+      "equipment_type": "Haul Truck",
+      "engine_model": "MTU 16V4000",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-09-16",
+      "received_date": "2026-09-21",
+      "oil_hours": 135,
+      "results": {
+        "fe_ppm": 19.2,
+        "cu_ppm": 6.3,
+        "al_ppm": 4.9,
+        "cr_ppm": 1.2,
+        "pb_ppm": 2.6,
+        "si_ppm": 13.1,
+        "na_ppm": 5.2,
+        "k_ppm": 1.6,
+        "water_ppm": 307,
+        "visc_100c_cst": 14.65,
+        "tbn_mgkoh_g": 9.96,
+        "soot_pct": 0.47
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10139",
+      "unit_id": "HT-103",
+      "equipment_type": "Haul Truck",
+      "engine_model": "Cummins QSK60",
+      "site": "Site A",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-07-29",
+      "received_date": "2026-08-04",
+      "oil_hours": 268,
+      "results": {
+        "fe_ppm": 23.0,
+        "cu_ppm": 5.9,
+        "al_ppm": 4.9,
+        "cr_ppm": 1.6,
+        "pb_ppm": 3.5,
+        "si_ppm": 11.3,
+        "na_ppm": 58.5,
+        "k_ppm": 37.5,
+        "water_ppm": 1658,
+        "visc_100c_cst": 14.52,
+        "tbn_mgkoh_g": 9.3,
+        "soot_pct": 0.82
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10230",
+      "unit_id": "HT-205",
+      "equipment_type": "Haul Truck",
+      "engine_model": "MTU 16V4000",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-05-25",
+      "received_date": "2026-05-30",
+      "oil_hours": 147,
+      "results": {
+        "fe_ppm": 21.4,
+        "cu_ppm": 6.0,
+        "al_ppm": 4.6,
+        "cr_ppm": 1.6,
+        "pb_ppm": 2.2,
+        "si_ppm": 11.3,
+        "na_ppm": 3.7,
+        "k_ppm": 1.3,
+        "water_ppm": 488,
+        "visc_100c_cst": 15.19,
+        "tbn_mgkoh_g": 8.95,
+        "soot_pct": 0.7
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10138",
+      "unit_id": "HT-103",
+      "equipment_type": "Haul Truck",
+      "engine_model": "Cummins QSK60",
+      "site": "Site A",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "1900-01-01",
+      "received_date": "2026-07-26",
+      "oil_hours": 124,
+      "results": {
+        "fe_ppm": 22.0,
+        "cu_ppm": 7.0,
+        "al_ppm": 4.1,
+        "cr_ppm": 0.6,
+        "pb_ppm": 1.8,
+        "si_ppm": 6.8,
+        "na_ppm": 53.6,
+        "k_ppm": 32.9,
+        "water_ppm": 1717,
+        "visc_100c_cst": 14.69,
+        "tbn_mgkoh_g": 9.45,
+        "soot_pct": 0.65
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10259",
+      "unit_id": "EX-301",
+      "equipment_type": "Excavator",
+      "engine_model": "Cummins QSK50",
+      "site": "Site A",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2025-12-31",
+      "received_date": "2026-01-03",
+      "oil_hours": 379,
+      "results": {
+        "fe_ppm": 20.0,
+        "cu_ppm": 8.1,
+        "al_ppm": 6.1,
+        "cr_ppm": 1.5,
+        "pb_ppm": 3.8,
+        "si_ppm": 15.1,
+        "na_ppm": 4.5,
+        "k_ppm": 1.7,
+        "water_ppm": 352,
+        "visc_100c_cst": 14.07,
+        "tbn_mgkoh_g": 7.53,
+        "soot_pct": 0.9
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10155",
+      "unit_id": "HT-204",
+      "equipment_type": "Haul Truck",
+      "engine_model": "MTU 16V4000",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2025-12-01",
+      "received_date": "2025-12-04",
+      "oil_hours": 261,
+      "results": {
+        "fe_ppm": 21.1,
+        "cu_ppm": 7.4,
+        "al_ppm": 5.5,
+        "cr_ppm": 1.4,
+        "pb_ppm": 3.5,
+        "si_ppm": 10.7,
+        "na_ppm": 2.8,
+        "k_ppm": 1.9,
+        "water_ppm": 368,
+        "visc_100c_cst": 14.64,
+        "tbn_mgkoh_g": 8.74,
+        "soot_pct": 0.64
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10398",
+      "unit_id": "LD-401",
+      "equipment_type": "Wheel Loader",
+      "engine_model": "Cat C18",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-09-30",
+      "received_date": "2026-10-04",
+      "oil_hours": 499,
+      "results": {
+        "fe_ppm": 31.1,
+        "cu_ppm": 7.8,
+        "al_ppm": 5.5,
+        "cr_ppm": 2.8,
+        "pb_ppm": 3.3,
+        "si_ppm": 14.9,
+        "na_ppm": 3.0,
+        "k_ppm": 2.5,
+        "water_ppm": 50,
+        "visc_100c_cst": 13.68,
+        "tbn_mgkoh_g": 5.94,
+        "soot_pct": 1.06
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10170",
+      "unit_id": "HT-204",
+      "equipment_type": "Haul Truck",
+      "engine_model": "MTU 16V4000",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-03-16",
+      "received_date": "2026-03-22",
+      "oil_hours": 391,
+      "results": {
+        "fe_ppm": 28.0,
+        "cu_ppm": 7.2,
+        "al_ppm": 6.7,
+        "cr_ppm": 1.8,
+        "pb_ppm": 4.4,
+        "si_ppm": 14.3,
+        "na_ppm": 5.3,
+        "k_ppm": 1.4,
+        "water_ppm": 457,
+        "visc_100c_cst": 14.39,
+        "tbn_mgkoh_g": 7.13,
+        "soot_pct": 0.95
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10306",
+      "unit_id": "EX-302",
+      "equipment_type": "Excavator",
+      "engine_model": "Cummins QSK50",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2025-12-08",
+      "received_date": "2025-12-14",
+      "oil_hours": 396,
+      "results": {
+        "fe_ppm": 31.3,
+        "cu_ppm": 7.5,
+        "al_ppm": 6.5,
+        "cr_ppm": 2.4,
+        "pb_ppm": 4.1,
+        "si_ppm": 11.2,
+        "na_ppm": 4.2,
+        "k_ppm": 1.7,
+        "water_ppm": 204,
+        "visc_100c_cst": 14.15,
+        "tbn_mgkoh_g": 6.92,
+        "soot_pct": 1.05
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10208",
+      "unit_id": "HT-205",
+      "equipment_type": "Haul Truck",
+      "engine_model": "MTU 16V4000",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2025-12-22",
+      "received_date": "2025-12-26",
+      "oil_hours": 142,
+      "results": {
+        "fe_ppm": 19.7,
+        "cu_ppm": 4.8,
+        "al_ppm": 3.3,
+        "cr_ppm": 1.1,
+        "pb_ppm": 2.6,
+        "si_ppm": 11.0,
+        "na_ppm": 5.4,
+        "k_ppm": 2.0,
+        "water_ppm": 405,
+        "visc_100c_cst": 13.93,
+        "tbn_mgkoh_g": 9.95,
+        "soot_pct": 0.57
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10227",
+      "unit_id": "HT205",
+      "equipment_type": "Haul Truck",
+      "engine_model": "MTU 16V4000",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-05-04",
+      "received_date": "2026-05-07",
+      "oil_hours": 143,
+      "results": {
+        "fe_ppm": 15.3,
+        "cu_ppm": 5.0,
+        "al_ppm": 3.1,
+        "cr_ppm": 1.7,
+        "pb_ppm": 1.2,
+        "si_ppm": 9.8,
+        "na_ppm": 5.0,
+        "k_ppm": 1.8,
+        "water_ppm": 456,
+        "visc_100c_cst": 14.27,
+        "tbn_mgkoh_g": 9.19,
+        "soot_pct": 0.52
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10285",
+      "unit_id": "EX-301",
+      "equipment_type": "Excavator",
+      "engine_model": "Cummins QSK50",
+      "site": "Site A",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-06-29",
+      "received_date": "2026-07-05",
+      "oil_hours": 145,
+      "results": {
+        "fe_ppm": 21.2,
+        "cu_ppm": 5.6,
+        "al_ppm": 3.3,
+        "cr_ppm": 1.3,
+        "pb_ppm": 0.6,
+        "si_ppm": 4.2,
+        "na_ppm": 4.9,
+        "k_ppm": 1.3,
+        "water_ppm": 468,
+        "visc_100c_cst": 14.69,
+        "tbn_mgkoh_g": 9.8,
+        "soot_pct": 0.57
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10377",
+      "unit_id": "LD-401",
+      "equipment_type": "Wheel Loader",
+      "engine_model": "Cat C18",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-05-04",
+      "received_date": "2026-05-09",
+      "oil_hours": 239,
+      "results": {
+        "fe_ppm": 21.2,
+        "cu_ppm": 6.7,
+        "al_ppm": 5.1,
+        "cr_ppm": 2.2,
+        "pb_ppm": 3.3,
+        "si_ppm": 6.3,
+        "na_ppm": 4.7,
+        "k_ppm": 1.0,
+        "water_ppm": 345,
+        "visc_100c_cst": 14.15,
+        "tbn_mgkoh_g": 9.14,
+        "soot_pct": 0.82
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10395",
+      "unit_id": "LD-401",
+      "equipment_type": "Wheel Loader",
+      "engine_model": "Cat C18",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-09-08",
+      "received_date": "2026-09-14",
+      "oil_hours": 130,
+      "results": {
+        "fe_ppm": 12.5,
+        "cu_ppm": 5.2,
+        "al_ppm": 3.1,
+        "cr_ppm": 1.5,
+        "pb_ppm": 1.5,
+        "si_ppm": 8.2,
+        "na_ppm": 2.8,
+        "k_ppm": 1.2,
+        "water_ppm": 328,
+        "visc_100c_cst": 15.27,
+        "tbn_mgkoh_g": 9.69,
+        "soot_pct": 0.59
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10016",
+      "unit_id": "HT-101",
+      "equipment_type": "Haul Truck",
+      "engine_model": "Cummins QSK60",
+      "site": "Site A",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-02-18",
+      "received_date": "2026-02-21",
+      "oil_hours": 356,
+      "results": {
+        "fe_ppm": 23.2,
+        "cu_ppm": 6.0,
+        "al_ppm": 3.3,
+        "cr_ppm": 1.8,
+        "pb_ppm": 3.8,
+        "si_ppm": 14.4,
+        "na_ppm": 5.8,
+        "k_ppm": 1.6,
+        "water_ppm": 341,
+        "visc_100c_cst": 14.09,
+        "tbn_mgkoh_g": 7.65,
+        "soot_pct": 0.81
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10242",
+      "unit_id": "HT-205",
+      "equipment_type": "Haul Truck",
+      "engine_model": "MTU 16V4000",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-08-18",
+      "received_date": "2026-08-20",
+      "oil_hours": 418,
+      "results": {
+        "fe_ppm": 34.3,
+        "cu_ppm": 5.6,
+        "al_ppm": 5.3,
+        "cr_ppm": 2.1,
+        "pb_ppm": 4.4,
+        "si_ppm": 10.5,
+        "na_ppm": 2.5,
+        "k_ppm": 1.0,
+        "water_ppm": 467,
+        "visc_100c_cst": 14.07,
+        "tbn_mgkoh_g": 7.94,
+        "soot_pct": 0.98
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10328",
+      "unit_id": "EX-302",
+      "equipment_type": "Excavator",
+      "engine_model": "Cummins QSK50",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-05-13",
+      "received_date": "2026-05-17",
+      "oil_hours": 135,
+      "results": {
+        "fe_ppm": 18.4,
+        "cu_ppm": 3.8,
+        "al_ppm": 3.5,
+        "cr_ppm": 1.0,
+        "pb_ppm": 3.3,
+        "si_ppm": 8.8,
+        "na_ppm": 3.5,
+        "k_ppm": 1.6,
+        "water_ppm": 541,
+        "visc_100c_cst": 15.01,
+        "tbn_mgkoh_g": 9.45,
+        "soot_pct": 0.49
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10072",
+      "unit_id": "HT-102",
+      "equipment_type": "Haul Truck",
+      "engine_model": "Cummins QSK60",
+      "site": "Site A",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-03-30",
+      "received_date": "2026-04-05",
+      "oil_hours": 270,
+      "results": {
+        "fe_ppm": 19.3,
+        "cu_ppm": 7.0,
+        "al_ppm": 4.5,
+        "cr_ppm": 1.8,
+        "pb_ppm": 2.3,
+        "si_ppm": 13.7,
+        "na_ppm": 3.8,
+        "k_ppm": 2.2,
+        "water_ppm": 576,
+        "visc_100c_cst": 14.55,
+        "tbn_mgkoh_g": 8.77,
+        "soot_pct": 0.71
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10299",
+      "unit_id": "EX-301",
+      "equipment_type": "Excavator",
+      "engine_model": "Cummins QSK50",
+      "site": "Site A",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-10-06",
+      "received_date": "2026-10-09",
+      "oil_hours": 120,
+      "results": {
+        "fe_ppm": 18.6,
+        "cu_ppm": 3.7,
+        "al_ppm": 4.7,
+        "cr_ppm": 0.7,
+        "pb_ppm": 2.1,
+        "si_ppm": 8.7,
+        "na_ppm": 5.2,
+        "k_ppm": 1.5,
+        "water_ppm": 335,
+        "visc_100c_cst": 14.37,
+        "tbn_mgkoh_g": 9.58,
+        "soot_pct": 0.5
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10037",
+      "unit_id": "HT-101",
+      "equipment_type": "Haul Truck",
+      "engine_model": "Cummins QSK60",
+      "site": "Site A",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-07-14",
+      "received_date": "2026-07-17",
+      "oil_hours": 134,
+      "results": {
+        "fe_ppm": 19.2,
+        "cu_ppm": 7.4,
+        "al_ppm": 4.1,
+        "cr_ppm": 1.7,
+        "pb_ppm": 3.0,
+        "si_ppm": 11.5,
+        "na_ppm": 4.5,
+        "k_ppm": 1.4,
+        "water_ppm": 411,
+        "visc_100c_cst": 14.26,
+        "tbn_mgkoh_g": 9.9,
+        "soot_pct": 0.41
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10364",
+      "unit_id": "LD-401",
+      "equipment_type": "Wheel Loader",
+      "engine_model": "Cat C18",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-02-04",
+      "received_date": "2026-02-08",
+      "oil_hours": 139,
+      "results": {
+        "fe_ppm": 14.4,
+        "cu_ppm": 6.4,
+        "al_ppm": 3.8,
+        "cr_ppm": 1.1,
+        "pb_ppm": 2.7,
+        "si_ppm": 13.2,
+        "na_ppm": 3.2,
+        "k_ppm": 1.0,
+        "water_ppm": 228,
+        "visc_100c_cst": 14.23,
+        "tbn_mgkoh_g": 9.37,
+        "soot_pct": 0.56
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10223",
+      "unit_id": "HT-205",
+      "equipment_type": "Haul Truck",
+      "engine_model": "MTU 16V4000",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-04-06",
+      "received_date": "2026-04-10",
+      "oil_hours": 113,
+      "results": {
+        "fe_ppm": 19.0,
+        "cu_ppm": 6.7,
+        "al_ppm": 4.0,
+        "cr_ppm": 1.3,
+        "pb_ppm": 3.3,
+        "si_ppm": 6.8,
+        "na_ppm": 3.8,
+        "k_ppm": 1.5,
+        "water_ppm": 314,
+        "visc_100c_cst": 14.14,
+        "tbn_mgkoh_g": 9.74,
+        "soot_pct": 0.54
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10121",
+      "unit_id": "HT-103",
+      "equipment_type": "Haul Truck",
+      "engine_model": "Cummins QSK60",
+      "site": "Site A",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-03-24",
+      "received_date": "2026-03-29",
+      "oil_hours": 383,
+      "results": {
+        "fe_ppm": 20.8,
+        "cu_ppm": 8.1,
+        "al_ppm": 5.5,
+        "cr_ppm": 1.2,
+        "pb_ppm": 4.0,
+        "si_ppm": 12.2,
+        "na_ppm": 4.7,
+        "k_ppm": 1.6,
+        "water_ppm": 371,
+        "visc_100c_cst": 14.3,
+        "tbn_mgkoh_g": 7.92,
+        "soot_pct": 0.95
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10034",
+      "unit_id": "HT-101",
+      "equipment_type": "Haul Truck",
+      "engine_model": "Cummins QSK60",
+      "site": "Site A",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-06-24",
+      "received_date": "2026-06-26",
+      "oil_hours": 144,
+      "results": {
+        "fe_ppm": 20.8,
+        "cu_ppm": 5.8,
+        "al_ppm": 3.8,
+        "cr_ppm": 0.9,
+        "pb_ppm": 3.0,
+        "si_ppm": 6.1,
+        "na_ppm": 4.2,
+        "k_ppm": 2.2,
+        "water_ppm": 370,
+        "visc_100c_cst": 15.0,
+        "tbn_mgkoh_g": 8.6,
+        "soot_pct": 0.58
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10199",
+      "unit_id": "HT-204",
+      "equipment_type": "Haul Truck",
+      "engine_model": "MTU 16V4000",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-10-07",
+      "received_date": "2026-10-12",
+      "oil_hours": 243,
+      "results": {
+        "fe_ppm": 16.2,
+        "cu_ppm": 51.7,
+        "al_ppm": 4.9,
+        "cr_ppm": 2.1,
+        "pb_ppm": 39.5,
+        "si_ppm": 9.8,
+        "na_ppm": 4.4,
+        "k_ppm": 2.2,
+        "water_ppm": 523,
+        "visc_100c_cst": 107.7,
+        "tbn_mgkoh_g": 9.28,
+        "soot_pct": 0.71
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@40C"
+      }
+    },
+    {
+      "sample_id": "LAB-10077",
+      "unit_id": "HT-102",
+      "equipment_type": "Haul Truck",
+      "engine_model": "Cummins QSK60",
+      "site": "Site A",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-05-06",
+      "received_date": "2026-05-09",
+      "oil_hours": 138,
+      "results": {
+        "fe_ppm": 14.6,
+        "cu_ppm": 4.4,
+        "al_ppm": 3.3,
+        "cr_ppm": 1.3,
+        "pb_ppm": 2.8,
+        "si_ppm": 9.7,
+        "na_ppm": 4.6,
+        "k_ppm": 1.5,
+        "water_ppm": 492,
+        "visc_100c_cst": 15.14,
+        "tbn_mgkoh_g": 9.83,
+        "soot_pct": 0.61
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10373",
+      "unit_id": "LD-401",
+      "equipment_type": "Wheel Loader",
+      "engine_model": "Cat C18",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-04-08",
+      "received_date": "2026-04-10",
+      "oil_hours": 141,
+      "results": {
+        "fe_ppm": 19.5,
+        "cu_ppm": 5.7,
+        "al_ppm": 3.3,
+        "cr_ppm": 1.2,
+        "pb_ppm": 1.7,
+        "si_ppm": 12.2,
+        "na_ppm": 3.0,
+        "k_ppm": 1.2,
+        "water_ppm": 319,
+        "visc_100c_cst": 15.08,
+        "tbn_mgkoh_g": 8.9,
+        "soot_pct": 0.42
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10208",
+      "unit_id": "HT-205",
+      "equipment_type": "Haul Truck",
+      "engine_model": "MTU 16V4000",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2025-12-22",
+      "received_date": "2025-12-26",
+      "oil_hours": 142,
+      "results": {
+        "fe_ppm": 19.7,
+        "cu_ppm": 4.8,
+        "al_ppm": 3.3,
+        "cr_ppm": 1.1,
+        "pb_ppm": 2.6,
+        "si_ppm": 11.0,
+        "na_ppm": 5.4,
+        "k_ppm": 2.0,
+        "water_ppm": 405,
+        "visc_100c_cst": 13.93,
+        "tbn_mgkoh_g": 9.95,
+        "soot_pct": 0.57
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10012",
+      "unit_id": " HT-101 ",
+      "equipment_type": "Haul Truck",
+      "engine_model": "Cummins QSK60",
+      "site": "Site A",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-01-21",
+      "received_date": "2026-01-26",
+      "oil_hours": 368,
+      "results": {
+        "fe_ppm": 20.2,
+        "cu_ppm": 6.7,
+        "al_ppm": 4.9,
+        "cr_ppm": 1.9,
+        "pb_ppm": 2.8,
+        "si_ppm": 11.8,
+        "na_ppm": 3.1,
+        "k_ppm": 1.1,
+        "water_ppm": 398,
+        "visc_100c_cst": 13.72,
+        "tbn_mgkoh_g": 7.66,
+        "soot_pct": 0.96
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10081",
+      "unit_id": "HT-102",
+      "equipment_type": "Haul Truck",
+      "engine_model": "Cummins QSK60",
+      "site": "Site A",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-06-01",
+      "received_date": "2026-06-03",
+      "oil_hours": 275,
+      "results": {
+        "fe_ppm": 24.1,
+        "cu_ppm": 7.1,
+        "al_ppm": 4.0,
+        "cr_ppm": 1.4,
+        "pb_ppm": 3.9,
+        "si_ppm": 7.7,
+        "na_ppm": 5.9,
+        "k_ppm": 1.4,
+        "water_ppm": 217,
+        "visc_100c_cst": 14.28,
+        "tbn_mgkoh_g": 8.26,
+        "soot_pct": 0.74
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10328",
+      "unit_id": "EX-302",
+      "equipment_type": "Excavator",
+      "engine_model": "Cummins QSK50",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-05-13",
+      "received_date": "2026-05-17",
+      "oil_hours": 135,
+      "results": {
+        "fe_ppm": 18.4,
+        "cu_ppm": 3.8,
+        "al_ppm": 3.5,
+        "cr_ppm": 1.0,
+        "pb_ppm": 3.3,
+        "si_ppm": 8.8,
+        "na_ppm": 3.5,
+        "k_ppm": 1.6,
+        "water_ppm": 541,
+        "visc_100c_cst": 15.01,
+        "tbn_mgkoh_g": 9.45,
+        "soot_pct": 0.49
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10378",
+      "unit_id": "LD-401",
+      "equipment_type": "Wheel Loader",
+      "engine_model": "Cat C18",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-05-12",
+      "received_date": "2026-05-18",
+      "oil_hours": 384,
+      "results": {
+        "fe_ppm": 32.8,
+        "cu_ppm": 6.7,
+        "al_ppm": 5.1,
+        "cr_ppm": 1.7,
+        "pb_ppm": 3.4,
+        "si_ppm": 12.3,
+        "na_ppm": 6.4,
+        "k_ppm": 1.1,
+        "water_ppm": 337,
+        "visc_100c_cst": 13.95,
+        "tbn_mgkoh_g": 7.57,
+        "soot_pct": 0.86
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10301",
+      "unit_id": "EX-302",
+      "equipment_type": "Excavator",
+      "engine_model": "Cummins QSK50",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2025-11-04",
+      "received_date": "2025-11-10",
+      "oil_hours": 136,
+      "results": {
+        "fe_ppm": 17.3,
+        "cu_ppm": 3.0,
+        "al_ppm": 2.9,
+        "cr_ppm": 1.9,
+        "pb_ppm": 2.5,
+        "si_ppm": 11.2,
+        "na_ppm": 4.3,
+        "k_ppm": 1.6,
+        "water_ppm": 412,
+        "visc_100c_cst": 14.56,
+        "tbn_mgkoh_g": 9.65,
+        "soot_pct": 0.45
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10384",
+      "unit_id": "LD-401",
+      "equipment_type": "Wheel Loader",
+      "engine_model": "Cat C18",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-06-23",
+      "received_date": "2026-06-29",
+      "oil_hours": 116,
+      "results": {
+        "fe_ppm": 16.4,
+        "cu_ppm": 5.9,
+        "al_ppm": 4.2,
+        "cr_ppm": 1.4,
+        "pb_ppm": 1.5,
+        "si_ppm": 7.3,
+        "na_ppm": 3.3,
+        "k_ppm": 2.2,
+        "water_ppm": 420,
+        "visc_100c_cst": 11.88,
+        "tbn_mgkoh_g": 9.63,
+        "soot_pct": 0.43
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10243",
+      "unit_id": "HT-205",
+      "equipment_type": "Haul Truck",
+      "engine_model": "MTU 16V4000",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-08-24",
+      "received_date": "2026-08-30",
+      "oil_hours": 146,
+      "results": {
+        "fe_ppm": 18.7,
+        "cu_ppm": 4.5,
+        "al_ppm": 3.7,
+        "cr_ppm": 1.4,
+        "pb_ppm": 1.5,
+        "si_ppm": 8.5,
+        "na_ppm": 3.0,
+        "k_ppm": 1.5,
+        "water_ppm": 578,
+        "visc_100c_cst": 14.29,
+        "tbn_mgkoh_g": 9.25,
+        "soot_pct": 0.5
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10176",
+      "unit_id": "HT-204",
+      "equipment_type": "Haul Truck",
+      "engine_model": "MTU 16V4000",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-04-29",
+      "received_date": "2026-05-03",
+      "oil_hours": 356,
+      "results": {
+        "fe_ppm": 22.6,
+        "cu_ppm": 7.1,
+        "al_ppm": 4.3,
+        "cr_ppm": 1.7,
+        "pb_ppm": 2.6,
+        "si_ppm": 11.7,
+        "na_ppm": 4.6,
+        "k_ppm": 1.8,
+        "water_ppm": 311,
+        "visc_100c_cst": 14.15,
+        "tbn_mgkoh_g": 7.89,
+        "soot_pct": 0.72
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10114",
+      "unit_id": "HT-103",
+      "equipment_type": "Haul Truck",
+      "engine_model": "Cummins QSK60",
+      "site": "Site A",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-02-04",
+      "received_date": "2026-02-08",
+      "oil_hours": 251,
+      "results": {
+        "fe_ppm": 20.3,
+        "cu_ppm": 6.1,
+        "al_ppm": 4.9,
+        "cr_ppm": 1.5,
+        "pb_ppm": 3.3,
+        "si_ppm": 10.7,
+        "na_ppm": 4.4,
+        "k_ppm": 1.1,
+        "water_ppm": 373,
+        "visc_100c_cst": 14.07,
+        "tbn_mgkoh_g": 8.4,
+        "soot_pct": 0.87
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10380",
+      "unit_id": "LD-401",
+      "equipment_type": "Wheel Loader",
+      "engine_model": "Cat C18",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-05-25",
+      "received_date": "2026-05-27",
+      "oil_hours": 117,
+      "results": {
+        "fe_ppm": 21.1,
+        "cu_ppm": 5.4,
+        "al_ppm": 3.4,
+        "cr_ppm": 1.0,
+        "pb_ppm": 2.4,
+        "si_ppm": 8.6,
+        "na_ppm": 4.7,
+        "k_ppm": 2.5,
+        "water_ppm": 95,
+        "visc_100c_cst": 14.13,
+        "tbn_mgkoh_g": 9.52,
+        "soot_pct": 0.48
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10371",
+      "unit_id": "LD-401",
+      "equipment_type": "Wheel Loader",
+      "engine_model": "Cat C18",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-03-23",
+      "received_date": "2026-03-25",
+      "oil_hours": 230,
+      "results": {
+        "fe_ppm": 19.5,
+        "cu_ppm": 4.9,
+        "al_ppm": 4.0,
+        "cr_ppm": 1.4,
+        "pb_ppm": 2.4,
+        "si_ppm": 9.4,
+        "na_ppm": 4.6,
+        "k_ppm": 1.4,
+        "water_ppm": 670,
+        "visc_100c_cst": 14.21,
+        "tbn_mgkoh_g": 8.7,
+        "soot_pct": 0.5
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10097",
+      "unit_id": "HT-102",
+      "equipment_type": "Haul Truck",
+      "engine_model": "Cummins QSK60",
+      "site": "Site A",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-09-22",
+      "received_date": "2026-09-28",
+      "oil_hours": 415,
+      "results": {
+        "fe_ppm": 30.9,
+        "cu_ppm": 7.6,
+        "al_ppm": 5.4,
+        "cr_ppm": 1.9,
+        "pb_ppm": 3.1,
+        "si_ppm": 14.0,
+        "na_ppm": 3.7,
+        "k_ppm": 1.1,
+        "water_ppm": 341,
+        "visc_100c_cst": 14.35,
+        "tbn_mgkoh_g": 7.13,
+        "soot_pct": 0.73
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10162",
+      "unit_id": "HT-204",
+      "equipment_type": "Haul Truck",
+      "engine_model": "MTU 16V4000",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "1900-01-01",
+      "received_date": "2026-01-22",
+      "oil_hours": 345,
+      "results": {
+        "fe_ppm": 23.3,
+        "cu_ppm": 5.5,
+        "al_ppm": 5.1,
+        "cr_ppm": 2.3,
+        "pb_ppm": 2.9,
+        "si_ppm": 14.4,
+        "na_ppm": 4.2,
+        "k_ppm": 1.7,
+        "water_ppm": 516,
+        "visc_100c_cst": 13.99,
+        "tbn_mgkoh_g": 7.71,
+        "soot_pct": 0.82
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10254",
+      "unit_id": "EX-301",
+      "equipment_type": "Excavator",
+      "engine_model": "Cummins QSK50",
+      "site": "Site A",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2025-11-24",
+      "received_date": "2025-11-26",
+      "oil_hours": 125,
+      "results": {
+        "fe_ppm": 10.6,
+        "cu_ppm": 5.0,
+        "al_ppm": 4.8,
+        "cr_ppm": 1.0,
+        "pb_ppm": 2.9,
+        "si_ppm": 6.9,
+        "na_ppm": 4.4,
+        "k_ppm": 1.4,
+        "water_ppm": 296,
+        "visc_100c_cst": 14.15,
+        "tbn_mgkoh_g": 9.26,
+        "soot_pct": 0.45
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10233",
+      "unit_id": "HT-205",
+      "equipment_type": "Haul Truck",
+      "engine_model": "MTU 16V4000",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-06-15",
+      "received_date": "2026-06-17",
+      "oil_hours": 119,
+      "results": {
+        "fe_ppm": 22.5,
+        "cu_ppm": 2.0,
+        "al_ppm": 2.7,
+        "cr_ppm": 1.4,
+        "pb_ppm": 3.1,
+        "si_ppm": 11.1,
+        "na_ppm": 5.1,
+        "k_ppm": 1.9,
+        "water_ppm": 368,
+        "visc_100c_cst": 14.83,
+        "tbn_mgkoh_g": 9.62,
+        "soot_pct": 0.37
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10345",
+      "unit_id": "EX-302",
+      "equipment_type": "Excavator",
+      "engine_model": "Cummins QSK50",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-09-08",
+      "received_date": "2026-09-13",
+      "oil_hours": 393,
+      "results": {
+        "fe_ppm": 25.2,
+        "cu_ppm": 8.1,
+        "al_ppm": 5.4,
+        "cr_ppm": 1.4,
+        "pb_ppm": 4.2,
+        "si_ppm": 16.3,
+        "na_ppm": 2.3,
+        "k_ppm": 2.2,
+        "water_ppm": 415,
+        "visc_100c_cst": 14.15,
+        "tbn_mgkoh_g": 6.45,
+        "soot_pct": 0.8
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10376",
+      "unit_id": "LD-401",
+      "equipment_type": "Wheel Loader",
+      "engine_model": "Cat C18",
+      "site": "Site B",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-04-27",
+      "received_date": "2026-05-03",
+      "oil_hours": 121,
+      "results": {
+        "fe_ppm": 18.5,
+        "cu_ppm": 5.2,
+        "al_ppm": 4.3,
+        "cr_ppm": 1.7,
+        "pb_ppm": 1.6,
+        "si_ppm": 9.4,
+        "na_ppm": 4.2,
+        "k_ppm": 0.9,
+        "water_ppm": 417,
+        "visc_100c_cst": 14.42,
+        "tbn_mgkoh_g": 8.91,
+        "soot_pct": 0.46
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    },
+    {
+      "sample_id": "LAB-10268",
+      "unit_id": "EX-301",
+      "equipment_type": "Excavator",
+      "engine_model": "Cummins QSK50",
+      "site": "Site A",
+      "component": "Engine",
+      "oil_grade": "SAE 15W-40",
+      "sample_date": "2026-03-04",
+      "received_date": "2026-03-07",
+      "oil_hours": 247,
+      "results": {
+        "fe_ppm": 25.8,
+        "cu_ppm": 5.4,
+        "al_ppm": 5.0,
+        "cr_ppm": 1.4,
+        "pb_ppm": 3.1,
+        "si_ppm": 11.3,
+        "na_ppm": 4.0,
+        "k_ppm": 1.3,
+        "water_ppm": 536,
+        "visc_100c_cst": 14.33,
+        "tbn_mgkoh_g": 8.8,
+        "soot_pct": 0.86
+      },
+      "units": {
+        "water": "ppm",
+        "viscosity": "cSt@100C"
+      }
+    }
+  ]
+}

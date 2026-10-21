@@ -1,0 +1,150 @@
+// =====================================================================
+// MODEL
+//   Samples       (1 row per sample)            -- from Power Query
+//   ResultsLong   (1 row per sample x parameter) -- from Power Query
+//   Limits        (reference/limits.csv)
+//   Date          (calendar table, marked as date table)
+// Relationships
+//   Samples[sample_id] 1 --- * ResultsLong[sample_id]
+//   Date[Date]         1 --- * Samples[sample_date]
+// =====================================================================
+
+
+// ---------------------------------------------------------------------
+// CALCULATED COLUMNS on ResultsLong
+// ---------------------------------------------------------------------
+
+// Limit status. Viscosity has both a low and a high limit row, so check both.
+Limit Status =
+VAR p = ResultsLong[parameter]
+VAR v = ResultsLong[value]
+VAR HighRows = FILTER ( Limits, Limits[parameter] = p && Limits[direction] = "high" )
+VAR LowRows  = FILTER ( Limits, Limits[parameter] = p && Limits[direction] = "low" )
+VAR HighCrit = MAXX ( HighRows, Limits[critical] )
+VAR HighCaut = MAXX ( HighRows, Limits[caution] )
+VAR LowCrit  = MAXX ( LowRows,  Limits[critical] )
+VAR LowCaut  = MAXX ( LowRows,  Limits[caution] )
+RETURN
+    SWITCH (
+        TRUE (),
+        NOT ISBLANK ( HighCrit ) && v >= HighCrit, "Critical",
+        NOT ISBLANK ( LowCrit )  && v <= LowCrit,  "Critical",
+        NOT ISBLANK ( HighCaut ) && v >= HighCaut, "Caution",
+        NOT ISBLANK ( LowCaut )  && v <= LowCaut,  "Caution",
+        "Normal"
+    )
+
+// Sort helper so Critical shows first in visuals
+Limit Status Rank =
+SWITCH ( ResultsLong[Limit Status], "Critical", 1, "Caution", 2, 3 )
+
+// Baseline = median of the same unit's previous 8 results for this parameter.
+// Needs at least 5 earlier samples, otherwise blank (not enough history to judge).
+Baseline Median =
+VAR u = ResultsLong[unit_id]
+VAR p = ResultsLong[parameter]
+VAR d = ResultsLong[sample_date]
+VAR Prev =
+    TOPN (
+        8,
+        FILTER ( ALL ( ResultsLong ),
+            ResultsLong[unit_id] = u && ResultsLong[parameter] = p && ResultsLong[sample_date] < d ),
+        ResultsLong[sample_date], DESC
+    )
+RETURN
+    IF ( COUNTROWS ( Prev ) >= 5, MEDIANX ( Prev, ResultsLong[value] ) )
+
+// Robust z-score (Iglewicz & Hoaglin): 0.6745 * (x - median) / MAD.
+// MAD is floored at 15% of the median so a very stable history doesn't flag noise.
+Robust Z =
+VAR u = ResultsLong[unit_id]
+VAR p = ResultsLong[parameter]
+VAR d = ResultsLong[sample_date]
+VAR Med = ResultsLong[Baseline Median]
+VAR Prev =
+    TOPN (
+        8,
+        FILTER ( ALL ( ResultsLong ),
+            ResultsLong[unit_id] = u && ResultsLong[parameter] = p && ResultsLong[sample_date] < d ),
+        ResultsLong[sample_date], DESC
+    )
+VAR MAD = MEDIANX ( Prev, ABS ( ResultsLong[value] - Med ) )
+VAR MADFloored = MAX ( MAD, 0.15 * ABS ( Med ) / 0.6745 )
+RETURN
+    IF ( NOT ISBLANK ( Med ) && MADFloored > 0,
+        DIVIDE ( 0.6745 * ( ResultsLong[value] - Med ), MADFloored ) )
+
+// Only the harmful direction counts (TBN dropping, wear metals rising; viscosity both ways)
+Is Anomaly =
+VAR z = ResultsLong[Robust Z]
+RETURN
+    SWITCH (
+        TRUE (),
+        ISBLANK ( z ), FALSE (),
+        ResultsLong[parameter] = "visc_100c_cst", ABS ( z ) >= 3.5,
+        ResultsLong[parameter] = "tbn_mgkoh_g", z <= -3.5,
+        z >= 3.5
+    )
+
+
+// ---------------------------------------------------------------------
+// MEASURES
+// ---------------------------------------------------------------------
+
+Samples Analysed = DISTINCTCOUNT ( Samples[sample_id] )
+
+Units Sampled = DISTINCTCOUNT ( Samples[unit_id] )
+
+Critical Results =
+CALCULATE ( COUNTROWS ( ResultsLong ), ResultsLong[Limit Status] = "Critical" )
+
+Caution Results =
+CALCULATE ( COUNTROWS ( ResultsLong ), ResultsLong[Limit Status] = "Caution" )
+
+Results Outside Limits = [Critical Results] + [Caution Results]
+
+% Results Outside Limits =
+DIVIDE ( [Results Outside Limits], COUNTROWS ( ResultsLong ) )
+
+Anomalies = CALCULATE ( COUNTROWS ( ResultsLong ), ResultsLong[Is Anomaly] = TRUE () )
+
+// Early warning: unusual change while still inside limits.
+// This is where anomaly detection adds value beyond fixed limits.
+Early Warnings =
+CALCULATE (
+    COUNTROWS ( ResultsLong ),
+    ResultsLong[Is Anomaly] = TRUE (),
+    ResultsLong[Limit Status] = "Normal"
+)
+
+Units Needing Action =
+CALCULATE (
+    DISTINCTCOUNT ( ResultsLong[unit_id] ),
+    FILTER (
+        ResultsLong,
+        ResultsLong[Limit Status] IN { "Critical", "Caution" } || ResultsLong[Is Anomaly]
+    )
+)
+
+// Latest value for a unit/parameter in the current filter context (for a "status board" table)
+Latest Value =
+VAR LastDate = MAX ( ResultsLong[sample_date] )
+RETURN
+    CALCULATE ( MAX ( ResultsLong[value] ), ResultsLong[sample_date] = LastDate )
+
+// Month-on-month change in results outside limits (for the monthly report card)
+Outside Limits Prev Month =
+CALCULATE ( [Results Outside Limits], DATEADD ( 'Date'[Date], -1, MONTH ) )
+
+Outside Limits MoM Change = [Results Outside Limits] - [Outside Limits Prev Month]
+
+// Data quality
+Imputed Sample Dates =
+CALCULATE ( COUNTROWS ( Samples ), Samples[sample_date_imputed] = TRUE () )
+
+Quarantined Records = COUNTROWS ( Quarantine )
+
+// Feed freshness: days since the newest sample received from the lab.
+// Put this on a card with conditional formatting (red if > 10) so a broken feed is obvious.
+Days Since Last Received =
+DATEDIFF ( MAX ( Samples[received_date] ), TODAY (), DAY )

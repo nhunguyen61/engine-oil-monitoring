@@ -1,0 +1,77 @@
+sample_id,field,issue,action,value_before,value_after
+LAB-10109,*,exact duplicate record,dropped,,
+LAB-10208,*,exact duplicate record,dropped,,
+LAB-10328,*,exact duplicate record,dropped,,
+LAB-10227,*,exact duplicate record,dropped,,
+LAB-10070,*,exact duplicate record,dropped,,
+LAB-10196,*,exact duplicate record,dropped,,
+LAB-10169,*,exact duplicate record,dropped,,
+LAB-10268,*,exact duplicate record,dropped,,
+LAB-10103,*,exact duplicate record,dropped,,
+LAB-10003,*,exact duplicate record,dropped,,
+LAB-10132,*,exact duplicate record,dropped,,
+LAB-10029,*,exact duplicate record,dropped,,
+LAB-10390,unit_id,inconsistent format,standardised,,
+LAB-10057,unit_id,inconsistent format,standardised,ht-102,HT-102
+LAB-10305,unit_id,inconsistent format,standardised, EX-302 ,EX-302
+LAB-10339,unit_id,inconsistent format,standardised,EX302,EX-302
+LAB-10227,unit_id,inconsistent format,standardised,HT205,HT-205
+LAB-10012,unit_id,inconsistent format,standardised, HT-101 ,HT-101
+LAB-10045,unit_id,inconsistent format,standardised,,
+LAB-10019,unit_id,inconsistent format,standardised,ht-101,HT-101
+LAB-10129,unit_id,inconsistent format,standardised,,
+LAB-10374,unit_id,inconsistent format,standardised,,
+LAB-10088,unit_id,inconsistent format,standardised,HT102,HT-102
+LAB-10258,unit_id,inconsistent format,standardised, EX-301 ,EX-301
+LAB-10197,unit_id,inconsistent format,standardised,,
+LAB-10091,unit_id,inconsistent format,standardised,ht-102,HT-102
+LAB-10383,unit_id,inconsistent format,standardised, LD-401 ,LD-401
+LAB-10218,sample_date,sample_date after received_date,imputed as received_date - 3 days; confirm with site,2026-03-19,2026-03-06
+LAB-10311,sample_date,date in the future,imputed as received_date - 3 days; confirm with site,2027-03-15,2026-01-15
+LAB-10027,sample_date,date in the future,imputed as received_date - 3 days; confirm with site,2027-03-15,2026-05-08
+LAB-10022,sample_date,placeholder date (1900-01-01),imputed as received_date - 3 days; confirm with site,1900-01-01,2026-04-01
+LAB-10105,sample_date,sample_date after received_date,imputed as received_date - 3 days; confirm with site,2025-12-11,2025-12-02
+LAB-10286,sample_date,sample_date after received_date,imputed as received_date - 3 days; confirm with site,2026-07-20,2026-07-09
+LAB-10083,sample_date,dd/mm/yyyy text format,converted to ISO date,15/06/2026,2026-06-15
+LAB-10237,sample_date,date in the future,imputed as received_date - 3 days; confirm with site,2027-03-15,2026-07-18
+LAB-10138,sample_date,placeholder date (1900-01-01),imputed as received_date - 3 days; confirm with site,1900-01-01,2026-07-23
+LAB-10162,sample_date,placeholder date (1900-01-01),imputed as received_date - 3 days; confirm with site,1900-01-01,2026-01-19
+LAB-10184,sample_date,dd/mm/yyyy text format,converted to ISO date,22/06/2026,2026-06-22
+LAB-10004,sample_date,sample_date after received_date,imputed as received_date - 3 days; confirm with site,2025-11-30,2025-11-23
+LAB-10067,sample_date,dd/mm/yyyy text format,converted to ISO date,23/02/2026,2026-02-23
+LAB-10367,sample_date,dd/mm/yyyy text format,converted to ISO date,24/02/2026,2026-02-24
+LAB-10111,sample_date,dd/mm/yyyy text format,converted to ISO date,13/01/2026,2026-01-13
+LAB-10207,sample_date,placeholder date (1900-01-01),imputed as received_date - 3 days; confirm with site,1900-01-01,2025-12-15
+LAB-10320,water_ppm,water reported in %,"converted % to ppm (x10,000)",0.035,350.0
+LAB-10302,water_ppm,water reported in %,"converted % to ppm (x10,000)",0.038,380.0
+LAB-10314,water_ppm,water reported in %,"converted % to ppm (x10,000)",0.029,290.0
+LAB-10046,water_ppm,water reported in %,"converted % to ppm (x10,000)",0.055,550.0
+LAB-10251,water_ppm,water reported in %,"converted % to ppm (x10,000)",0.044,440.0
+LAB-10192,water_ppm,water reported in %,"converted % to ppm (x10,000)",0.043,430.0
+LAB-10103,water_ppm,water reported in %,"converted % to ppm (x10,000)",0.02,200.0
+LAB-10216,water_ppm,water reported in %,"converted % to ppm (x10,000)",0.025,250.0
+LAB-10370,water_ppm,water reported in %,"converted % to ppm (x10,000)",0.025,250.0
+LAB-10111,water_ppm,water reported in %,"converted % to ppm (x10,000)",0.059,590.0
+LAB-10109,visc_100c_cst,"viscosity reported at 40C, not 100C",set to blank; request 100C result from lab,106.2,
+LAB-10339,visc_100c_cst,"viscosity reported at 40C, not 100C",set to blank; request 100C result from lab,106.3,
+LAB-10237,visc_100c_cst,"viscosity reported at 40C, not 100C",set to blank; request 100C result from lab,115.2,
+LAB-10199,visc_100c_cst,"viscosity reported at 40C, not 100C",set to blank; request 100C result from lab,107.7,
+LAB-10350,visc_100c_cst,"viscosity reported at 40C, not 100C",set to blank; request 100C result from lab,113.5,
+LAB-10078,visc_100c_cst,"viscosity reported at 40C, not 100C",set to blank; request 100C result from lab,115.8,
+LAB-10307,fe_ppm,missing result,left blank (not treated as zero),,
+LAB-10069,fe_ppm,missing result,left blank (not treated as zero),,
+LAB-10092,fe_ppm,missing result,left blank (not treated as zero),,
+LAB-10103,fe_ppm,missing result,left blank (not treated as zero),,
+LAB-10195,fe_ppm,missing result,left blank (not treated as zero),,
+LAB-10128,fe_ppm,missing result,left blank (not treated as zero),,
+LAB-10118,fe_ppm,missing result,left blank (not treated as zero),,
+LAB-10207,fe_ppm,missing result,left blank (not treated as zero),,
+LAB-10276,visc_100c_cst,missing result,left blank (not treated as zero),,
+LAB-10351,visc_100c_cst,missing result,left blank (not treated as zero),,
+LAB-10359,visc_100c_cst,missing result,left blank (not treated as zero),,
+LAB-10272,visc_100c_cst,missing result,left blank (not treated as zero),,
+LAB-10390,unit_id,missing unit_id,quarantined; cannot link to equipment,,
+LAB-10045,unit_id,missing unit_id,quarantined; cannot link to equipment,,
+LAB-10129,unit_id,missing unit_id,quarantined; cannot link to equipment,,
+LAB-10374,unit_id,missing unit_id,quarantined; cannot link to equipment,,
+LAB-10197,unit_id,missing unit_id,quarantined; cannot link to equipment,,

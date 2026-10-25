@@ -1,5 +1,9 @@
 # Engine Oil Condition Monitoring
 
+## Interactive Dashboard
+
+[View Live Dashboard](https://nhunguyen61.github.io/engine-oil-monitoring/)
+
 ### Data Cleaning, Validation & Condition Monitoring with Python and Power BI
 
 An end-to-end project that processes laboratory oil analysis data, flags results outside limits, detects unusual changes before they breach limits, and prepares the data for a Power BI condition monitoring dashboard.

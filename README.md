@@ -226,8 +226,6 @@ generator/        script that creates the simulated lab data
 mock_api/v1/      the mock API: 9 paginated JSON pages
 reference/        limits.csv (caution and critical limits)
 python/           pipeline.py (cleaning, limits, anomalies, report)
-powerquery/       Power Query (M) scripts
-dax/              DAX measures
 output/           cleaned data, data quality log, quarantine, monthly report
 ```
 
